@@ -32,20 +32,20 @@ object HelloWorld {
 
   def main(args: Array[String]): Unit = {
 
-    //val maliste = List("COTE D'IVOIRE", "MALI", "CAMEROUN", "NIGERIA")
-    //maliste.foreach(l => println(l.toLowerCase))
-    //val prenoms  = Seq("RIKI","CRISTOPHE","SIRIBANA","JEAN","MOHAMED","ASSANE","NAMORY")
-    //val nombreCaratersPrenoms : Seq[Int]  =  prenoms.map(s => (s.length))
-    // nombreCaratersPrenoms.foreach(l =>println(l))
-    //val LongPrenoms = prenoms.filter(l =>(l.length>4)).foreach(l =>println(l))
-   /* val monMap : Map[String,String] = Map(
+    val maliste = List("COTE D'IVOIRE", "MALI", "CAMEROUN", "NIGERIA")
+    maliste.foreach(l => println(l.toLowerCase))
+    val prenoms  = Seq("RIKI","CRISTOPHE","SIRIBANA","JEAN","MOHAMED","ASSANE","NAMORY")
+    val nombreCaratersPrenoms : Seq[Int]  =  prenoms.map(s => (s.length))
+     nombreCaratersPrenoms.foreach(l =>println(l))
+    val LongPrenoms = prenoms.filter(l =>(l.length>4)).foreach(l =>println(l))
+   val monMap : Map[String,String] = Map(
       "ab" -> "Abobo",
       "cc" -> "Cocody",
       "ad" -> "Adjame"
     )
     val monListeMap = monMap.toList
     monMap.keys.foreach(k => println(k))
-    println(monMap("ab"))*/
+    println(monMap("ab"))
 
     val monTableau : Array[String] = Array("RIKI","CRISTOPHE","SIRIBANA","JEAN","MOHAMED","ASSANE","NAMORY")
     monTableau.foreach(l =>println(l))
